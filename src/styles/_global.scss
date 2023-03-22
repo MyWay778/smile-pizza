@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+  max-width: 1340px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+
+  @media (max-width: $tablet) {
+    margin-top: 0;
+  }
+}

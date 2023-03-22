@@ -1,0 +1,11 @@
+%container {
+  padding-inline: 68px;
+
+  @media (max-width: $laptop) {
+    padding-inline: 40px;
+  }
+
+  @media (max-width: $tablet) {
+    padding-inline: 20px;
+  }
+}

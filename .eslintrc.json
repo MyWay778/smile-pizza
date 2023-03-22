@@ -12,7 +12,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["error", { "anonymous": "never", "named": "never", "asyncArrow": "always" }],
     "@typescript-eslint/space-before-function-paren": "off",
     "semi": ["error", "always"],
     "@typescript-eslint/semi": "off",
@@ -22,13 +22,8 @@
       "error",
       {
         "multiline": {
-          "delimiter": "semi" // 'none' or 'semi' or 'comma'
-          // "requireLast": false
+          "delimiter": "semi"
         }
-        // "singleline": {
-        //   "delimiter": "semi", // 'semi' or 'comma'
-        //   "requireLast": false
-        // }
       }
     ]
   }

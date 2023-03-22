@@ -1,0 +1,17 @@
+.tab {
+  padding: 14px 20px;
+  border-radius: 30px;
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  line-height: 19px;
+
+  &.active {
+    background-color: #282828;
+    color: #fff;
+    cursor: default;
+  }
+}

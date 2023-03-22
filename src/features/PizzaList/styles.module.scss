@@ -1,0 +1,13 @@
+.pizzaList {
+  @extend %container;
+
+  display: grid;
+  justify-content: space-between;
+  margin-top: 35px;
+  gap: 65px 10px;
+  grid-template-columns: repeat(auto-fill, 260px);
+
+  @media (max-width: $laptop) {
+    justify-content: space-around;
+  }
+}

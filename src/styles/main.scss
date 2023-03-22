@@ -1,11 +1,23 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import './css-variables';
+@import './fonts';
+@import './global';
+@import './reset';
 
 html {
-  font-size: 14px;
-  font-family: var(--font-family);
   color: var(--color-black);
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: var(--color-background);
+  padding-inline: 25px;
+
+  @media (max-width: $tablet) {
+    background-color: #fff;
+    padding-inline: 0;
+  }
 }

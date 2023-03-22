@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
